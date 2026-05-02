@@ -39,7 +39,7 @@ First part: we validate the line entered by the user. At this stage, we chose no
 1. space_management.c (remove tabs / remove extra spaces / return clean line: consistent format )
 
 ```c
-if the user enter ->'    <in cmd|   "cmd"   >out		'
+if the user enter ->'<in cmd|   "cmd"   >out'
 the line is normalize ->'< in cmd | "cmd" > out'
 ```
 
@@ -58,7 +58,6 @@ Second part: this stage aims to build a linked list. Each node contains a char *
 
 ```c
 the line '< in cmd1 | cmd2 > out'
-
 is transformed in linked list containing tabs:
 
 NODE 0
@@ -90,7 +89,7 @@ https://docs.google.com/spreadsheets/d/1BPW7k81LJPhGv2fbi35NIIoOC_mGZXQQJDnV0Sju
 
 ## IV Ressources
 
-### 1. Ressources to develop and undertand the project <br> 
+### 1. Ressources to develop and understand the project <br> 
 
 1. Signal managment: https://www.youtube.com/watch?v=jF-1eFhyz1U / http://brunogarcia.chez.com/Unix/Docs/Signaux.html
 2. Termcap Manual: https://www.gnu.org/software/termutils/manual/termcap-1.3/html_mono/termcap.html#:~:text=The%20termcap%20library%20is%20the,tgetnum%20%2C%20tgetflag%20%2C%20tgetstr%20).
