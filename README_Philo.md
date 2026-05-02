@@ -126,7 +126,7 @@ Fifth argument → This argument is optional, it represents the number of times 
 
 Good evening, voyager. Let me tell you a little tale. Our story begins in 2026, on the 5th of March, when I failed this project for the first time…
 <p align="center">
-<img src="https://content.imageresizer.com/images/memes/Guy-with-sand-in-the-hands-of-despair-meme-vj2v8.jpg" alt="on the ground" width="700"/>
+<img src="https://images.meme-arsenal.com/69ee4d968202d61cd2ecd5c6cb6b1b2e.jpg" alt="on the ground" width="700"/>
 </p>
 
 My pride was wounded, but my determination remained intact. Alas, philosophers were not eating properly, once one had finished eating, he would send a signal to the others. As one, they would shut down, dropping their forks and their ideas, returning to oblivion. That was my first mistake… and not my last. I came back stronger, carrying with me one foolish idea: *"Since I have to try again, why not attempt the bonuses as well?"* 
