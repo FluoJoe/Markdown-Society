@@ -2,10 +2,12 @@
 📚 A read me feast 📚
 
 Will I seriously make a README about READMEs ?
-<iwill>
-<hey>Cliquer pour dérouler</hey>
-YES ABSOLUTELY 
-</iwill>
+
+<details>
+  <summary>Clique ici pour dérouler</summary>
+
+YES ABSOLUTELY
+</details>
 
 ## Source
 
