@@ -77,8 +77,20 @@ tab 0 is = -cmd2-
 tab is: out
 tab 0 is = -out-
 ```
+### 2. Execution
 
-### 2. Execution 
+For each node created by the parsing, the execute part does the following :
+1) Open the files, which are the infiles, heredocs, outfiles or append outfiles. The fd of the last file of each type is stored.
+2) Create the pipe. Except for the last child, because this one will show its output on the stdout.
+3) Create the child process (only if no problem happened during the opening of the files).
+4) In the child process :
+- Redirect the pipe on the stdin and stdout.
+- If one or multiple files were opened, redirect the fd(s) on the stdin and/or stdout.
+- Execute the command. First, we check if it is a built-in command. If not, we check if is the command exists in the path from the PATH environnement variable.
+- If the command doesn't exist, free everything and exit the process.
+5) Close the fds, except the read part of the pipe, because it will be used in the next child process.
+
+Then, we wait all the child processes and store the exit code of the last created one.
 
 ## III Instructions
 
